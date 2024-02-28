@@ -7,7 +7,7 @@
 一つ目は，Add using Counting Bloom Filter で，これはCounting Bloom Filterにてポリシーの包含判定を低コストで行っている．
 二つ目は，Get using Ring Buffe で，これはRing Buffer をキャッシュとして実装することで，再参照のコストを削減している． -->
 
-This project aims to improve the efficiency of policy search on an attribute-based access control framework for Ethereum. Two methods are proposed to reduce GAS and execution time for:
+This project aims to improve the efficiency of policy search on an Attribute-Based Access Control (ABAC) framework for Ethereum. Two methods are proposed to reduce GAS and execution time for:
 
 1. Detection of duplicates upon adding new policies.
 2. Retrieval of policies based on attribute information.
@@ -23,22 +23,8 @@ The second method is **Get using Ring Buffer**, which reduces the cost of re-ref
 
 ## Usage
 
-To build this whole project (including clone and compile APGAS and GLB as necessary components), run:
+### Using SAMC.sol and OAMC.sol, you can add attribute information for subjects and objects.
+### Using ACBF.sol, you can add policies.
+### Using GRB.sol, you can get access permissions.
 
-```shell
-./ElasticJobScheduler/scripts/cloneAndCompileAll.sh
-```
-
-## Usage
-
-### SAMC.sol, OAMC.sol を用いてサブジェクトとオブジェクトの属性情報を追加する
-
-
-
-## Contributors
-
-In alphabetical order:
-
-- Janek Bürger
-- Patrick Finnerty
-- Jonas Posner
+### PMC.sol and ACC.sol utilize linear search.
