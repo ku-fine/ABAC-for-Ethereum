@@ -21,6 +21,14 @@ The second method is **Get using Ring Buffer**, which reduces the cost of re-ref
 - Python 3.9
    - `pip3 install web3`
 
+## Deployment
+You can deploy the contract to any blockchain using the included Deploy.py script.
+1. Retrieve the HTTP URL of the blockchain you want to connect to and establish the connection.
+2. Retrieve the private key of the account from which you want to send the transaction.
+3. Select the JSON file of the contract you want to deploy.
+4. Select the JSON file to save the contract address.
+5. Execute Deploy.py to complete the deployment.
+
 ## Usage
 ```solidity:Difinition
 struct ObjectAttribute {
