@@ -22,9 +22,51 @@ The second method is **Get using Ring Buffer**, which reduces the cost of re-ref
    - `pip3 install web3`
 
 ## Usage
+```solidity:Difinition
+struct ObjectAttribute {
+        string name;
+        string place;
+    }
 
+    struct Object {
+        string id;
+        ObjectAttribute attribute;
+    }
+
+    struct SubjectAttribute {
+        string name;
+        string role;
+    }
+
+    struct Subject {
+        string id;
+        SubjectAttribute attribute;
+    }
+
+    struct Action {
+        bool write;
+        bool read;
+        bool execute;
+    }
+
+    struct Context {
+        uint start;
+        uint end;
+    }
+
+    struct Policy {
+        Subject subject;
+        Object object;
+        Action action;
+        Context context;
+    }
+```
 ### Using SAMC.sol and OAMC.sol, you can add attribute information for subjects and objects.
+- addSubject(id, name, role)
+- addObject(id, name, place)
 ### Using ACBF.sol, you can add policies.
+- addPolicy(Subject, Object, Action, Context)
 ### Using GRB.sol, you can get access permissions.
-
+- getAccessResult(subjectId, objectId)
 ### PMC.sol and ACC.sol utilize linear search.
+Comparison with ACBF and GRB is possible.
