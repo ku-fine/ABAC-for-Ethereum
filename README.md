@@ -83,4 +83,3 @@ struct ObjectAttribute {
 ### [PMC.sol](contracts%PMC.sol) and [ACC.sol](contracts%ACC.sol) utilize linear search.
 Comparison with ACBF and GRB is possible.
 
-## 
