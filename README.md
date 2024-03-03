@@ -26,7 +26,7 @@ The second method is **Get using Ring Buffer**, which reduces the cost of re-ref
 You can compile all contracts using the command `truffle compile`.
 
 ## Deployment
-You can deploy the contract to any blockchain using the included [deploy.py](python%deploy.py) script.
+You can deploy the contract to any blockchain using the included [deploy.py](python/deploy.py) script.
 1. Retrieve the HTTP URL of the blockchain you want to connect to and establish the connection.
 2. Retrieve the private key of the account from which you want to send the transaction.
 3. Select the JSON file of the contract you want to deploy.
