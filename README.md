@@ -1,4 +1,4 @@
-# Attrebute-Based Access Control (ABAC) for Ethereum
+# Attribute-Based Access Control (ABAC) for Ethereum
 
 <!-- このプロジェクトは，Ethereum上での属性ベースアクセス制御フレームワークに関するポリシー検索効率の改善を目指す．
 1. 新規ポリシー追加に伴う重複の判定
@@ -22,7 +22,7 @@ The second method is **Get using Ring Buffer**, which reduces the cost of re-ref
    - `pip3 install web3`
 
 ## Deployment
-You can deploy the contract to any blockchain using the included Deploy.py script.
+You can deploy the contract to any blockchain using the included [deploy.py](python%deploy.py) script.
 1. Retrieve the HTTP URL of the blockchain you want to connect to and establish the connection.
 2. Retrieve the private key of the account from which you want to send the transaction.
 3. Select the JSON file of the contract you want to deploy.
@@ -69,12 +69,14 @@ struct ObjectAttribute {
         Context context;
     }
 ```
-### Using SAMC.sol and OAMC.sol, you can add attribute information for subjects and objects.
+### Using [SAMC.sol](contracts%SAMC.sol) and [OAMC.sol](contracts%OAMC.sol) , you can add attribute information for subjects and objects.
 - addSubject(id, name, role)
 - addObject(id, name, place)
-### Using ACBF.sol, you can add policies.
+### Using [ACBF.sol](contracts%ACBF.sol), you can add policies.
 - addPolicy(Subject, Object, Action, Context)
-### Using GRB.sol, you can get access permissions.
+### Using [GRB.sol](contracts%GRB.sol), you can get access permissions.
 - getAccessResult(subjectId, objectId)
-### PMC.sol and ACC.sol utilize linear search.
+### [PMC.sol](contracts%PMC.sol) and [ACC.sol](contracts%ACC.sol) utilize linear search.
 Comparison with ACBF and GRB is possible.
+
+## 
