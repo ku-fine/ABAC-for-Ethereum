@@ -18,8 +18,12 @@ The second method is **Get using Ring Buffer**, which reduces the cost of re-ref
 
 ## Requirements
 - solc 0.8.19
+- truffle 5.11.5
 - Python 3.9
    - `pip3 install web3`
+
+## Compile
+You can compile all contracts using the command 'truffle compile'.
 
 ## Deployment
 You can deploy the contract to any blockchain using the included [deploy.py](python%deploy.py) script.
