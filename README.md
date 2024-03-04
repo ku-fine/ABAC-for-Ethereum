@@ -83,3 +83,13 @@ struct ObjectAttribute {
 ### [PMC.sol](contracts/PMC.sol) and [ACC.sol](contracts/ACC.sol) utilize linear search.
 Comparison with ACBF and GRB is possible.
 
+## Related Works
+- Y. Zhang, M. Yutaka, M. Sasabe, and S. Kasahara, “Attribute-based access control for smart cities: A smart-contract-driven framework,” IEEE Internet of Things Journal, vol. 8, no. 8, pp. 6372–6384, 2020. [10.1109/JIOT.2020.3033434](https://doi.org/10.1109/JIOT.2020.3033434)
+- [solidity-bloom-filter](https://github.com/wanseob/solidity-bloom-filter.git)
+
+## Publications
+- S. Kuroki, .... "" (In Japanese), ２０２４年IEICE総合大会   
+<!-- <-- 発表スライドをZenodoなどにアップロードした後に，ここに url を載せるといいです ;-) -->
+
+## Contributors
+- Shouta Kuroki
