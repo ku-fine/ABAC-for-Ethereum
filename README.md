@@ -87,6 +87,9 @@ Comparison with ACBF and GRB is possible.
 - Y. Zhang, M. Yutaka, M. Sasabe, and S. Kasahara, “Attribute-based access control for smart cities: A smart-contract-driven framework,” IEEE Internet of Things Journal, vol. 8, no. 8, pp. 6372–6384, 2020. [10.1109/JIOT.2020.3033434](https://doi.org/10.1109/JIOT.2020.3033434)
 - [solidity-bloom-filter](https://github.com/wanseob/solidity-bloom-filter.git)
 
+## License
+This software is released under the terms of the [MIT License](LICENSE.txt), though it also uses third-party packages with their own licensing terms.
+
 ## Publications
 - S. Kuroki, "Ethereum を用いた属性ベースアクセス制御のポリシー検索効率改善" (In Japanese), 2024年IEICE総合大会   
 <!-- <-- 発表スライドをZenodoなどにアップロードした後に，ここに url を載せるといいです ;-) -->
