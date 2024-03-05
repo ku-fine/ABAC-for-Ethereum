@@ -88,7 +88,7 @@ Comparison with ACBF and GRB is possible.
 - [solidity-bloom-filter](https://github.com/wanseob/solidity-bloom-filter.git)
 
 ## Publications
-- S. Kuroki, .... "" (In Japanese), ２０２４年IEICE総合大会   
+- S. Kuroki, "Ethereum を用いた属性ベースアクセス制御のポリシー検索効率改善" (In Japanese), 2024年IEICE総合大会   
 <!-- <-- 発表スライドをZenodoなどにアップロードした後に，ここに url を載せるといいです ;-) -->
 
 ## Contributors
