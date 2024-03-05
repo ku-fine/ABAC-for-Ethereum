@@ -76,10 +76,13 @@ struct ObjectAttribute {
 ### Using [SAMC.sol](contracts/SAMC.sol) and [OAMC.sol](contracts/OAMC.sol) , you can add attribute information for subjects and objects.
 - addSubject(id, name, role)
 - addObject(id, name, place)
+
 ### Using [ACBF.sol](contracts/ACBF.sol), you can add policies.
 - addPolicy(Subject, Object, Action, Context)
+
 ### Using [GRB.sol](contracts/GRB.sol), you can get access permissions.
 - getAccessResult(subjectId, objectId)
+
 ### [PMC.sol](contracts/PMC.sol) and [ACC.sol](contracts/ACC.sol) utilize linear search.
 Comparison with ACBF and GRB is possible.
 
